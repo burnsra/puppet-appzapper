@@ -5,7 +5,7 @@
 #   include appzapper
 class appzapper {
   package { 'AppZapper':
-    provider => 'appdmg',
+    provider => 'appdmg_eula',
     source   => 'http://www.appzapper.com/downloads/appzapper.dmg'
   }
 }
